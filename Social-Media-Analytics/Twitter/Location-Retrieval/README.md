@@ -23,4 +23,4 @@ max(set(locations), key=locations.count)
 ```
 
 
-*This approach assumes the for a specific handle, most of their followers will coincide geographically to the user's location.*
+*This approach assumes most of followers of a specific Twitter handle will coincide geographically to the handle's location.*
