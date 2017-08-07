@@ -1,5 +1,5 @@
 # Social-Media-Analytics & ETL Pipeline Development
-Various scripts I wrote while employed as a Data Scientist at Capstrat/Ketchum South in Raleigh, NC
+These scripts retrieve social media content and metrics for clients.
 <br>
 <br>
 ## Folder Contents<br>
@@ -23,3 +23,8 @@ Various scripts I wrote while employed as a Data Scientist at Capstrat/Ketchum S
 **Facebook Analytics** <br>
 
 * Retrieving Facebook comments
+
+<br>
+<br>
+<br>
+No sensitive or personal information is included in this content.  All data shown here is publically accessible, passwords and sensitive information has been deleted.
