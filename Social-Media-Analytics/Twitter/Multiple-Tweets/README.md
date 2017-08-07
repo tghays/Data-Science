@@ -20,8 +20,6 @@ main_handles = {'RDUairport' : 'RDU',
 
 This script uses [Tweepy](https://github.com/tweepy/tweepy) library to authenticate with the Twitter API and [Pandas](https://github.com/pandas-dev/pandas) to save the data.  For safe data storage, a unique csv is saved with tweet data for each airport, the csv's are later combined for future analysis.
 
-<br>
-
 A Pandas DataFrame is created to store the tweet, tweet meta-data, sentiment analysis metrics, and geospatial attributes:
 
 ```
