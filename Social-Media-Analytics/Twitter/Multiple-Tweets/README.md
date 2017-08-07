@@ -2,7 +2,7 @@
 
 This script retrieves multiple tweets for different airports around the United States and saves the data in a Pandas DataFrame.
 
-```
+```python
 main_handles = {'RDUairport' : 'RDU',
                 'rduceo' : 'RDU',
                 'CLTAirport' : 'Charlotte',
