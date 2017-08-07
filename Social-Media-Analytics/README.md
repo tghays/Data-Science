@@ -27,4 +27,4 @@ These scripts retrieve social media content and metrics for clients.
 <br>
 <br>
 <br>
-No sensitive or personal information is included in this content.  All data shown here is publically accessible, passwords and sensitive information has been deleted.
+No sensitive or personal information is included in this content.  All data shown here is publically accessible - passwords and sensitive information has been deleted.
