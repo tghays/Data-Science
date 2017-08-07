@@ -1,4 +1,4 @@
-# Social-Media-Analytics and ETL Pipeline Development
+# Social-Media-Analytics & ETL Pipeline Development
 Various scripts I wrote while employed as a Data Scientist at Capstrat/Ketchum South in Raleigh, NC
 <br>
 <br>
