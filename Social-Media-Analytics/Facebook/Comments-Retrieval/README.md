@@ -23,3 +23,11 @@ If necessary, a user can conveniently request to extend their access token throu
 graph.extend_access_token(FB_APP_ID, FB_APP_SECRET)
 ```
 
+Prepare Pandas DataFrame with relevant columns:
+```python
+fb_comments_df = pd.DataFrame(columns = ['reply_comment_date', 'reply_comment_time', 'reply_comment_text', \
+                                          'reply_comment_id', 'reply_username', 'reply_user_id', 'brand', 'post_date',\
+                                          'post_time', 'post_text', 'post_id'])
+```
+
+
