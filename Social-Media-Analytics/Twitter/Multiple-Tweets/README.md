@@ -28,7 +28,6 @@ df_tweets = pd.DataFrame(columns = ['date', 'time', 'location', 'handle', 'brand
                                     'entity_salience', 'geolocation', 'place', 'coordinates',])
 ```
 
-<br>
 
 An outer for loop is created to iterate through the airport handles.  A Tweepy Cursor is then used to iterate through the pages returned to the client.  For each iteration within the Tweepy Cursor, the "item page" is appended to a list.  That list is then assigned to a dictionary key of the specified handle. If the API rate limit is reached, Tweepy will automatically wait the required 15 minutes until it sends another request to the Twitter servers:
 
@@ -39,7 +38,6 @@ for tweet in tweepy.Cursor(api.search, q = '@' + handle, since = since, \
     tempTweetList.append(tweet)
 tweetDict['tweets_' + handle] = tempTweetList
 ```
-
 
 Lists for each DataFrame column are created, and upon completing the iteration for a unique airport, the list is assigned to the appropriate DataFrame column.  For each iteration of the outer for-loop, these lists are over-written, redifined again.
 
@@ -55,4 +53,5 @@ tempTweetUserList = []
 tempTweetPostIDList = []
 tempTweetHandleList = []
 ```
+
 
